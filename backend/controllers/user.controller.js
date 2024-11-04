@@ -117,7 +117,7 @@ export const logout = async (req,res) => {
 
 // to update profile
 
-export const updateProfile = aysnc (req,res) => {
+export const updateProfile = async (req,res) => {
     try {
         const {fullname, email, phoneNumber, bio, skills} = req.body;
         const file = req.file;
